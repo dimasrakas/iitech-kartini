@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .__btn__primary {
+        @apply px-4 py-2 bg-green-500 rounded-sm text-white;
+    }
+
+    .__btn__green {
+        @apply bg-green-500 font-bold text-white text-base px-6 py-2 rounded-lg hover:bg-green-400 transition duration-300 ease-out;
+    }
+
+    .__cta__header {
+        @apply border border-green-500 bg-green-100 p-4 rounded-lg;
+    }
+}
