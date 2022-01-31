@@ -14,4 +14,8 @@
     .__cta__header {
         @apply border border-green-500 bg-green-100 p-4 rounded-lg;
     }
+
+    .__btn__submit {
+
+    }
 }
